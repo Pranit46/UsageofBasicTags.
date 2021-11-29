@@ -1,0 +1,80 @@
+form{
+    border: 2px solid black;
+    width: 40%;
+    margin: auto;
+}
+
+h2{
+    background-color: red;
+    text-align: center;
+    color: white;
+    margin-top: 2px;
+}
+
+.commonRow{
+    display: flex;
+    justify-content: space-between;
+    margin-right: -7px;
+    margin: 28px
+}
+.address{
+    margin-left: 28px;
+}
+
+.address input{
+    width: 94%;
+}
+
+.subscribe{
+    position: relative;
+    left: 26px;
+    font-size: 16px;
+}
+
+.Info{
+    margin: 10px;
+    position: relative;
+    left: 26px;
+    font-size: 16px;
+}
+
+.TbaleContent{
+    margin: auto;
+    margin-top: 30px;
+}
+
+.myTable{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.myTable td{
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+.heading{
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.commonRow1{
+    display: flex;
+    flex-direction: column;
+    margin-right: -7px;
+    margin: 28px
+}
+
+.img1{
+    position: relative;
+    top: 5px;
+}
+
+.text1{
+    text-align: center;
+    margin: 10px;
+}

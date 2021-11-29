@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <div>
+            <h2>Yes! I want to subscribe to <i>Mag-O-Zine</i></h2>
+        </div>
+
+        <div class="commonRow">
+            <div>
+                <input type="text" name="firstName"  required/><br>
+                <label>First Name</label>
+            </div>
+            
+            <div>
+                <input type="text" name="lastName" required/><br>
+                <label>Last Name</label>
+            </div>   
+        </div>
+
+            <div class="address">
+                <input type="text" name="Address" required/><br>
+                <label>Address</label>
+            </div>
+    
+
+            <div class="commonRow">
+                <div>
+                    <input type="text" name="city" required/><br>
+                    <label>City</label>
+                </div>
+                
+                <div>
+                    <input type="text" name="state" required/><br>
+                    <label>State</label>
+                </div>   
+
+                <div>
+                    <input type="number" name="zip" required/><br>
+                    <label>Zip</label>
+                </div>  
+            </div>
+
+            <div class="subscribe">
+                <span><b>Subscribe for</b></span>
+                <input type="checkbox"/>
+                <label><b>1 year($19.95)</b></label>
+                <input type="checkbox"/>
+                <label><b>2 years($35.00)</b></label>
+            </div>
+
+            <div class="Info">
+                <span><b>Send me more information about:</b></span><br>
+                <input type="checkbox"/>
+                <label><b>Computer-Zine</b></label><br>
+                <input type="checkbox"/>
+                <label><b>Fishing-Zine</b></label><br>
+                <input type="checkbox"/>
+                <label><b>Cat-O-Zine</b></label><br>
+            </div>
+    </form>
+
+
+    <div class="TbaleContent">
+        <div class="heading">
+            Health Chart
+        </div>
+
+        <table class="myTable">
+            <tr>
+                <td rowspan="2">State of Health</td>
+                <td colspan="2">Fasting Value</td>
+                <td>After Eating</td>
+            </tr>
+
+            <tr>
+                <td>Minimum</td>
+                <td>Maximum</td>
+                <td>2 hours after eating</td>
+            </tr>
+
+            <tr>
+                <td>Healthy</td>
+                <td>70</td>
+                <td>100</td>
+                <td>Less than 140</td>
+            </tr>
+
+            <tr>
+                <td>Pre-Diabetes</td>
+                <td>101</td>
+                <td>126</td>
+                <td>140 to 200</td>
+            </tr>
+
+            <tr>
+                <td>Diabetes</td>
+                <td>More than 126</td>
+                <td>N/A</td>
+                <td>More than 200</td>
+            </tr>
+        </table>
+        
+    </div>
+
+    <div class="text1">
+        <span > <i>Form to show input types</i> <span>
+    </div>
+    <form>
+        <div>
+            <h2>Student Information</h2>
+        </div>
+
+        <div class="commonRow">
+            <div>
+                <input type="text" name="firstName"  required/><br>
+                <label>First Name</label>
+            </div>
+            
+            <div>
+                <input type="text" name="lastName" required/><br>
+                <label>Last Name</label>
+            </div>   
+        </div>
+
+            <div class="address">
+                <input type="text" name="Address" required/><br>
+                <label>Address</label>
+            </div>
+    
+
+            <div class="commonRow">
+                <div>
+                    <input type="number" name="number" required/><br>
+                    <label>Number</label>
+                </div>
+                
+                <div>
+                    <input type="email" name="email" required/><br>
+                    <label>Email</label>
+                </div>   
+
+                <div>
+                    <input type="date" name="date" required/><br>
+                    <label>Date of Birth</label>
+                </div>  
+            </div>
+
+
+            <div class="commonRow1">
+                <div>
+                    <input type="file" name="photo" /><br>
+                    <label>Upload Photo</label><br><br>
+                </div>
+                
+                <div>
+                    <input type="hidden" name="hidden" required/>
+                    <label><i>This is hidden element </i></label><br><br>
+                </div>   
+                
+                <div>
+                    <label>Please specify your github url</label>
+                    <input class="img1" type="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7iwRCN2-bz1sixgtWfjtPY2bGiuykrd3MUQ&usqp=CAU" width="28">
+                    <input type="url"><br><br>
+                 </div>
+
+                 <div>
+                    <input type="month" name="hidden" required/><br>
+                    <label>Date when you can join our orgnisation </label><br><br>
+                </div>  
+
+                <div>
+                    <label>1</label>
+                    <input type="range" name="hidden" required/>
+                    <label>10</label><br>
+                    <label>Rate yout self in javascript </label><br><br>
+                </div> 
+
+                <div>
+                    <label>1</label>
+                    <input type="range" name="hidden" required/>
+                    <label>10</label><br>
+                    <label>Rate yout self in HTML </label><br><br>
+                </div> 
+
+                <div>
+                    <label>1</label>
+                    <input type="range" name="hidden" required/>
+                    <label>10</label><br>
+                    <label>Rate yout self in CSS </label><br><br>
+                </div> 
+            </div>
+
+            
+
+            
+
+
+            <div class="subscribe">
+                <span><b>Gender</b></span>
+                <input type="radio" name="Gender"/>
+                <label><b>Male</b></label>
+                <input type="radio" name="Gender"/>
+                <label><b>Female</b></label>
+            </div>
+
+
+            <div class="Info">
+                <span><b>Send me more information about:</b></span><br>
+                <input type="checkbox"/>
+                <label><b>Computer-Zine</b></label><br>
+                <input type="checkbox"/>
+                <label><b>Fishing-Zine</b></label><br>
+                <input type="checkbox"/>
+                <label><b>Cat-O-Zine</b></label><br><br>
+
+                <button type="submit">submit</button> <input type="reset"/>
+            </div>
+
+            
+           
+    </form>
+
+</body>
+</html>
